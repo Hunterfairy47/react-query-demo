@@ -1,95 +1,101 @@
 {
-    "superheroes":[
-        {
-           "id":1,
-           "name":"Batman dark",
-           "alterEgo":"Bruce Wayne",
-           "img":"https://www.indiewire.com/wp-content/uploads/2021/08/Robert-Pattinson-Batman.jpeg?w=780"
-        },
-        {
-           "id":2,
-           "name":"Superman",
-           "alterEgo":"Clark Kent",
-           "img":"https://genk.mediacdn.vn/139269124445442048/2021/3/1/1-16145711003471806295541.jpg"
-
-        },
-        {
-           "id":3,
-           "name":"Wonder Woman 1",
-           "alterEgo":"Princess Diana",
-           "img":"https://photo-cms-plo.zadn.vn/w850/Uploaded/2022/nkxrxqeiox/2020_12_04/1_fppt.jpeg"
-
-        }
-    ],
-    "Cats":[
-      {
-         "id":1,
-         "name":"Mèo xiêm",
-         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-2.jpg"
-      },
-      {
-         "id":2,
-         "name":"Mèo Anh lông dài ",
-         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-4.jpg"
-      },
-      {
-         "id":3,
-         "name":"Mèo Anh lông ngắn",
-         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-5.jpg"
-      }
-    ],
-    "users":[
-      {
-         "id":"an.nguyen@hdwebsoft.io",
-         "hobbyId": "myHobby"
-      }
-    ],
-    "hobbys":[
-      {
-         "id":"myHobby",
-         "listHobby": ["Music","Movies", "Game"]
-      }
-    ]
-    ,
-    "colors":[
-      {
-         "id":1,
-         "label":"red"
-         
-      },
-      {
-         "id":2,
-         "label":"blue"
-      }
-      ,
-      {
-         "id":3,
-         "label":"green"
-      }
-      ,
-      {
-         "id":4,
-         "label":"yellow"
-      }
-      ,
-      {
-         "id":5,
-         "label":"black"
-      }
-      ,
-      {
-         "id":6,
-         "label":"white"
-      }
-      ,
-      {
-         "id":7,
-         "label":"orange"
-      }
-      ,
-      {
-         "id":8,
-         "label":"purple"
-      }
-    ]
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman dark",
+      "img": "https://www.indiewire.com/wp-content/uploads/2021/08/Robert-Pattinson-Batman.jpeg?w=780"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "img": "https://genk.mediacdn.vn/139269124445442048/2021/3/1/1-16145711003471806295541.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman 1",
+      "img": "https://photo-cms-plo.zadn.vn/w850/Uploaded/2022/nkxrxqeiox/2020_12_04/1_fppt.jpeg"
+    },
+    {
+      "name": "The flash",
+      "img": "https://cartermatt-bgmyzuarasgpknxgxbrs.netdna-ssl.com/wp-content/uploads/2021/10/The-Flash-boots-e1634406631328.jpg",
+      "id": 4
+    },
+    {
+      "name": "Hulk",
+      "img": "https://fandom.vn/wp-content/uploads/2019/06/mcu-the-incredible-hulk-1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Captain America",
+      "img": "https://photo-cms-nghenhinvietnam.zadn.vn/w700/Uploaded/2022/cadwpqrnd/2021_02_22/captain_america_lijy.jpg",
+      "id": 6
+    }
+  ],
+  "Cats": [
+    {
+      "id": 1,
+      "name": "Mèo xiêm",
+      "img": "https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mèo Anh lông dài ",
+      "img": "https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-4.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mèo Anh lông ngắn",
+      "img": "https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-5.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "an.nguyen@hdwebsoft.io",
+      "hobbyId": "myHobby"
+    }
+  ],
+  "hobbys": [
+    {
+      "id": "myHobby",
+      "listHobby": [
+        "Music",
+        "Movies",
+        "Game"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "blue"
+    },
+    {
+      "id": 3,
+      "label": "green"
+    },
+    {
+      "id": 4,
+      "label": "yellow"
+    },
+    {
+      "id": 5,
+      "label": "black"
+    },
+    {
+      "id": 6,
+      "label": "white"
+    },
+    {
+      "id": 7,
+      "label": "orange"
+    },
+    {
+      "id": 8,
+      "label": "purple"
+    }
+  ]
 }
