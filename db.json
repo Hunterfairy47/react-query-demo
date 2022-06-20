@@ -1,0 +1,53 @@
+{
+    "superheroes":[
+        {
+           "id":1,
+           "name":"Batman dark",
+           "alterEgo":"Bruce Wayne",
+           "img":"https://www.indiewire.com/wp-content/uploads/2021/08/Robert-Pattinson-Batman.jpeg?w=780"
+        },
+        {
+           "id":2,
+           "name":"Superman",
+           "alterEgo":"Clark Kent",
+           "img":"https://genk.mediacdn.vn/139269124445442048/2021/3/1/1-16145711003471806295541.jpg"
+
+        },
+        {
+           "id":3,
+           "name":"Wonder Woman 1",
+           "alterEgo":"Princess Diana",
+           "img":"https://photo-cms-plo.zadn.vn/w850/Uploaded/2022/nkxrxqeiox/2020_12_04/1_fppt.jpeg"
+
+        }
+    ],
+    "Cats":[
+      {
+         "id":1,
+         "name":"Mèo xiêm",
+         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-2.jpg"
+      },
+      {
+         "id":2,
+         "name":"Mèo Anh lông dài ",
+         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-4.jpg"
+      },
+      {
+         "id":3,
+         "name":"Mèo Anh lông ngắn",
+         "img":"https://petmaster.vn/petroom/wp-content/uploads/2020/04/meo-canh-5.jpg"
+      }
+    ],
+    "users":[
+      {
+         "id":"an.nguyenhdwebsoft.io",
+         "hobbyId": "myHobby"
+      }
+    ],
+    "hobbys":[
+      {
+         "id":"myHobby",
+         "listHobby": ["Music","Movies", "Game"]
+      }
+    ]
+}
