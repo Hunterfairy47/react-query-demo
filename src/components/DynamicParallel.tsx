@@ -12,6 +12,7 @@ interface DynamicParallelProps{
 }
 
 export const DynamicParallel = ({heroIds}:DynamicParallelProps) => {
+  
     const queryResults = useQueries(
       heroIds.map((id: number)=>{
         return {

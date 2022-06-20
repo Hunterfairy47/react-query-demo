@@ -1,5 +1,5 @@
 import axios from "axios"
-import { useQuery } from "react-query"
+import { useQuery, useQueryClient } from "react-query"
 
 
 const fetchHero =(heroId: number)=>{
@@ -7,5 +7,7 @@ const fetchHero =(heroId: number)=>{
 }
 
 export const useHeroData = (heroId: number)=>{
+    const queryClient = useQueryClient()
+
     return useQuery(['super-hero', heroId], ()=>fetchHero(heroId))
 }
